@@ -3,9 +3,9 @@ import pandas as pd
 import seaborn as sn
 from sklearn.preprocessing import LabelBinarizer
 
-# Filepaths
-rawdata = 'data/rawdata/FoodAccessRaw.csv'
-datalabels = 'data/rawdata/FoodAccessLabels.csv'
+# NOTE: you will have to insert your own data-paths here
+rawdata = '/Users/rajandesai/PycharmProjects/data/rawdata/FoodAccessRaw.csv'
+datalabels = '/Users/rajandesai/PycharmProjects/data/rawdata/FoodAccessLabels.csv'
 
 # Read in df
 df = pd.read_csv(rawdata)
